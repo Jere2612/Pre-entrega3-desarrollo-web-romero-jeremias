@@ -1,0 +1,171 @@
+@media (max-width: 1024px) {
+    .inicio {
+        padding-left: 300px;
+    }
+
+    nav ul li a {
+        font-size: large;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        ul {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        ul li {
+            margin-right: 0;
+            margin-bottom: 10px;
+
+            a {
+                font-size: medium;
+            }
+        }
+    }
+
+    .inicio {
+        padding-left: 0;
+    }
+
+    footer {
+        ul {
+            align-self: center;
+            text-align: center;
+        }
+
+        .social-icons {
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul li a {
+        font-size: small;
+    }
+
+    footer {
+        ul {
+            text-align: center;
+
+            li {
+                margin: 5px 0;
+            }
+        }
+
+        p {
+            font-size: 0.875rem;
+        }
+
+        .social-icons {
+            a {
+                margin: 5px 5px;
+            }
+        }
+    }
+}
+
+.h1-conocenos {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.img-maximo-jere {
+    max-width: 100%;
+    height: auto;
+}
+
+.parrafo-derecha-img {
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+
+    @media (max-width: 1200px) {
+        font-size: x-large; 
+        margin-left: 15px; 
+    }
+
+    @media (max-width: 992px) {
+        font-size: large; 
+        margin-left: 0; 
+        margin-top: 10px; 
+    }
+
+    @media (max-width: 768px) {
+        font-size: medium; 
+        margin-top: 5px; 
+    }
+
+    @media (max-width: 576px) {
+        font-size: small; 
+    }
+}
+
+@media (max-width: 1200px) {
+    .main-crianza {
+        .h1-crianza {
+            padding-top: 80px;
+            padding-left: 50px;
+            font-size: 2.5rem;
+        }
+
+        .grid-container {
+            grid-template-columns: 1fr;
+            padding-left: 50px;
+        }
+
+        .parrafo-crianza {
+            font-size: medium;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .main-crianza {
+        .h1-crianza {
+            padding-top: 60px;
+            padding-left: 20px;
+            font-size: 2rem;
+        }
+
+        .grid-container {
+            grid-template-columns: 1fr;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .parrafo-crianza {
+            font-size: small;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .main-crianza {
+        .h1-crianza {
+            padding-top: 40px;
+            padding-left: 10px;
+            font-size: 1.5rem;
+        }
+
+        .grid-container {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .parrafo-crianza {
+            font-size: smaller;
+        }
+    }
+}

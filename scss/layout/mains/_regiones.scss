@@ -1,0 +1,16 @@
+$color-de-fondo:rgba(243, 250, 240, 0.897);
+$estilo-fuente: 'Times New Roman', Times, serif;
+main {
+
+    .info-conteiner {
+        background-color: $color-de-fondo;
+        .parrafo-regiones{
+            text-align: center;
+            font-family: $estilo-fuente;
+            font-size: large;
+        }
+        .card-body {
+            background-color: #d5f0d5;
+        }
+    }
+}

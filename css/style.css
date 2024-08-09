@@ -1,0 +1,298 @@
+header {
+  background-color: rgba(243, 250, 240, 0.897);
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+header nav ul li {
+  margin-right: 0;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(0, 0, 0, 0.678);
+  font-size: x-large;
+  padding-right: 100px;
+}
+
+footer {
+  background-color: rgba(243, 250, 240, 0.897);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+footer .footer-logo {
+  margin-bottom: 20px;
+}
+footer .parrafo-footer {
+  max-width: 600px;
+  margin: 20px auto;
+  font-size: 1rem;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  text-align: left;
+  align-self: flex-start;
+}
+footer ul li {
+  margin: 5px 0;
+}
+footer ul li a {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(0, 0, 0, 0.678);
+  font-size: 1rem;
+}
+footer .social-icons {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 20px;
+}
+footer .social-icons a {
+  margin: 0 5px;
+}
+
+@media (max-width: 1024px) {
+  .inicio {
+    padding-left: 300px;
+  }
+  nav ul li a {
+    font-size: large;
+  }
+}
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  nav ul li a {
+    font-size: medium;
+  }
+  .inicio {
+    padding-left: 0;
+  }
+  footer ul {
+    align-self: center;
+    text-align: center;
+  }
+  footer .social-icons {
+    justify-content: center;
+  }
+}
+@media (max-width: 480px) {
+  nav ul li a {
+    font-size: small;
+  }
+  footer ul {
+    text-align: center;
+  }
+  footer ul li {
+    margin: 5px 0;
+  }
+  footer p {
+    font-size: 0.875rem;
+  }
+  footer .social-icons a {
+    margin: 5px 5px;
+  }
+}
+.h1-conocenos {
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.img-maximo-jere {
+  max-width: 100%;
+  height: auto;
+}
+
+.parrafo-derecha-img {
+  margin-left: 20px;
+  color: rgb(0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+}
+@media (max-width: 1200px) {
+  .parrafo-derecha-img {
+    font-size: x-large;
+    margin-left: 15px;
+  }
+}
+@media (max-width: 992px) {
+  .parrafo-derecha-img {
+    font-size: large;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .parrafo-derecha-img {
+    font-size: medium;
+    margin-top: 5px;
+  }
+}
+@media (max-width: 576px) {
+  .parrafo-derecha-img {
+    font-size: small;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main-crianza .h1-crianza {
+    padding-top: 80px;
+    padding-left: 50px;
+    font-size: 2.5rem;
+  }
+  .main-crianza .grid-container {
+    grid-template-columns: 1fr;
+    padding-left: 50px;
+  }
+  .main-crianza .parrafo-crianza {
+    font-size: medium;
+  }
+}
+@media (max-width: 768px) {
+  .main-crianza .h1-crianza {
+    padding-top: 60px;
+    padding-left: 20px;
+    font-size: 2rem;
+  }
+  .main-crianza .grid-container {
+    grid-template-columns: 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .main-crianza .parrafo-crianza {
+    font-size: small;
+  }
+}
+@media (max-width: 480px) {
+  .main-crianza .h1-crianza {
+    padding-top: 40px;
+    padding-left: 10px;
+    font-size: 1.5rem;
+  }
+  .main-crianza .grid-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .main-crianza .parrafo-crianza {
+    font-size: smaller;
+  }
+}
+body {
+  background-color: rgba(243, 250, 240, 0.897);
+}
+
+.inicio {
+  padding-left: 200px;
+}
+
+main .info-conteiner {
+  background-color: rgba(243, 250, 240, 0.897);
+}
+main .info-conteiner .parrafo-regiones {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
+main .info-conteiner .card-body {
+  background-color: #d5f0d5;
+}
+
+.varietales-container {
+  background-color: rgba(243, 250, 240, 0.897);
+}
+.varietales-container .varietales-h1 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: normal;
+}
+.varietales-container .parrafo-varietales {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: x-large;
+}
+.varietales-container .varietales-h2 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: normal;
+  color: rgb(54, 0, 0);
+}
+
+.main-crianza {
+  background-image: url("../img/Vista superior de la botella de vino con fondo de pizarra _ Foto Premium.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.main-crianza .h1-crianza {
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(240, 248, 255, 0.589);
+  padding-top: 100px;
+  padding-left: 100px;
+}
+.main-crianza .parrafo-crianza {
+  color: antiquewhite;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
+.main-crianza .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-items: center;
+  padding-left: 100px;
+}
+
+.conteiner-conocenos {
+  background-color: rgba(243, 250, 240, 0.897);
+}
+.conteiner-conocenos .h1-conocenos {
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.conteiner-conocenos .d-flex {
+  display: flex;
+  align-items: center;
+}
+.conteiner-conocenos .img-maximo-jere {
+  max-width: 100%;
+  height: auto;
+}
+.conteiner-conocenos .parrafo-derecha-img {
+  margin-left: 20px;
+  color: rgb(0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+}
+
+/*# sourceMappingURL=style.css.map */

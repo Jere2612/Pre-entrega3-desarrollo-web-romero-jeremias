@@ -1,0 +1,22 @@
+@mixin texto-estilos($font-family, $text-align, $font-size: normal) {
+    font-family: $font-family;
+    text-align: $text-align;
+    font-size: $font-size;
+}
+
+.varietales-container {
+    background-color: $color-de-fondo;
+
+    .varietales-h1 {
+        @include texto-estilos($estilo-fuente, center);
+    }
+
+    .parrafo-varietales {
+        @include texto-estilos($estilo-fuente, center, x-large);
+    }
+
+    .varietales-h2 {
+        @include texto-estilos($estilo-fuente, center);
+        color: rgb(54, 0, 0);
+    }
+}
